@@ -1,0 +1,29 @@
+GET http://localhost:5000/users/
+
+###
+
+GET http://localhost:5000/books/
+
+###
+
+GET http://localhost:5000/search?q=Learn
+
+###
+
+POST http://localhost:5000/signup/
+Content-Type: application/json
+
+{
+    "user": "dan",
+    "pass": "pass"
+}
+
+###
+
+POST http://localhost:5000/login/
+Content-Type: application/json
+
+{
+    "user": "dan",
+    "pass": "pass"
+}
